@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	GD
 %define		pnam	Graph-histogram
+%include	/usr/lib/rpm/macros.perl
 Summary:	GD::Graph::histogram Perl module - Histogram plotting module
 Name:		perl-GD-Graph-histogram
 Version:	1.1
@@ -10,15 +10,16 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	633c97212412d0d85bb3dc7251f5bad9
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/GD-Graph-histogram/
 BuildRequires:	perl-GD-Graph
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 GD::Graph::histogram extends the GD::Graph module to create
-histograms.  The module allow creation of count or percentage
+histograms. The module allow creation of count or percentage
 histograms.
 
 %prep
