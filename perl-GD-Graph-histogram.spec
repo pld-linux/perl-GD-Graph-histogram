@@ -1,6 +1,5 @@
 %define		pdir	GD
 %define		pnam	Graph-histogram
-%include	/usr/lib/rpm/macros.perl
 Summary:	GD::Graph::histogram Perl module - Histogram plotting module
 Name:		perl-GD-Graph-histogram
 Version:	1.1
