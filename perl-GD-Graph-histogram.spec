@@ -3,7 +3,7 @@
 Summary:	GD::Graph::histogram Perl module - Histogram plotting module
 Name:		perl-GD-Graph-histogram
 Version:	1.1
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
